@@ -774,9 +774,24 @@ ul.location li img {
 
 .main-content {
   background: rgb(2, 0, 36);
-  background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(150, 34, 125, 1) 35%, rgba(0, 212, 255, 1) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(150, 34, 125, 1) 35%, rgba(0, 212, 255, 1) 100%);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(150, 34, 125, 1) 35%, rgba(0, 212, 255, 1) 100%);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(150, 34, 125, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(150, 34, 125, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(150, 34, 125, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#00d4ff",GradientType=1);
   color: lightcyan;
 }
@@ -875,6 +890,22 @@ ul.location li img {
   display: block;
 }
 
+.donationsButtonTop {
+  position: absolute;
+  right: 1px;
+  top: 350px;
+}
+
+/* .donationsBottom {
+  width: 20px;
+} */
+
+.botdonButton {
+  max-width: 150px;
+  position: absolute;
+  right: 1px;
+}
+
 /* Screen larger than 400px? 1 column */
 @media (min-width: 400px) {
   .cards {
@@ -886,6 +917,9 @@ ul.location li img {
 @media (min-width: 600px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .botdonButton {
+    display: none;
   }
 }
 
