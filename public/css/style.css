@@ -390,6 +390,15 @@ button {
   padding-top: 10px;
 }
 
+.songLenght {
+  margin-left: 5%;
+}
+
+.smalldonButton {
+  max-width: 30%;
+  float: right;
+}
+
 .market_text {
   width: 100%;
   font-size: 22px;
