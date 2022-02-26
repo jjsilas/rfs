@@ -375,9 +375,10 @@ button {
 
 .market_text {
   width: 100%;
-  font-size: 17px;
+  font-size: 22px;
   color: #0d0909;
   margin-left: 0px;
+  font-weight: 600;
 }
 
 .about_bg {
