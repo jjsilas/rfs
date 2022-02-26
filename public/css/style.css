@@ -373,6 +373,23 @@ button {
   font-weight: 700;
 }
 
+.faqHeading {
+  width: 100%;
+  float: left;
+  font-size: 45px;
+  color: #121010;
+  font-weight: 700;
+}
+
+.faqSubheading {
+  width: 100%;
+  float: left;
+  font-size: 30px;
+  color: #121010;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
 .market_text {
   width: 100%;
   font-size: 22px;
