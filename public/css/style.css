@@ -381,6 +381,14 @@ button {
   font-weight: 600;
 }
 
+.contactUsText {
+  width: 100%;
+  font-size: 22px;
+  color: #0d0909;
+  margin-left: 0px;
+  font-weight: 400;
+}
+
 .about_bg {
   width: 100%;
   float: left;
