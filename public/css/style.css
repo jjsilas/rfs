@@ -399,6 +399,11 @@ button {
   float: right;
 }
 
+.guitarIndexImg,
+.micIndexImg {
+  border: 0.2rem solid #1f1f1f;
+}
+
 .market_text {
   width: 100%;
   font-size: 22px;
