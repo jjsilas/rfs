@@ -931,6 +931,10 @@ ul.location li img {
     float: left;
     display: block;
   }
+
+  .donationsBottom {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
