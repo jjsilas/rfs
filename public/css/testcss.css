@@ -911,6 +911,12 @@ ul.location li img {
   .cards {
     grid-template-columns: repeat(1, 1fr);
   }
+  .botdonButton{
+    display: block;
+    visibility: hidden;
+  }
+
+
 }
 
 /* Screen larger than 600px? 2 column */
